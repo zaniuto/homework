@@ -14,3 +14,4 @@ print(f'b: {b}')
 
 # Część wspólna
 print(f'b & a: {b & a}')
+
