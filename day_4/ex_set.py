@@ -14,3 +14,10 @@ print(f'b: {b}')
 
 # Część wspólna
 print(f'b & a: {b & a}')
+print(f'b & a: {b.intersection(a)}')
+
+# Suma zbiorów
+c = {6,7,8}
+print(f'c: {c}')
+print(f'b | a: {b | c}')
+print(f'b | a: {b.union(c)}')
