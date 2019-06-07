@@ -14,3 +14,13 @@ text = (
 )
 # Wyśwetl do 10 pierwszych znaków pojawiających się w stringu
 # wraz z krotnościa ich wystąpienia.
+letters = {}
+for ii in text:
+    if not ii.isalpha():
+        continue
+    ii = ii.lower()
+    if len(letters) < 10 and ii not in letters:
+        letters[ii] = 0
+    if ii in letters:
+        letters[ii] += 1
+print(letters)
