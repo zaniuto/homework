@@ -3,11 +3,14 @@
 
 
 def name(first_name, last_name):
-    pass
+    print(first_name.capitalize(), last_name.capitalize())
 
 # wywołując funkcje bez jawnego podania nazw argumentów,
 # argumenty przypisywane są w kolejnosci podania ich w nagłowku funkcji
-name('Maciej', 'Kwiatkowski')
+# name('Maciej', 'Kwiatkowski')
+# name('maciej', 'kwiatkowski')
+# name('MACIEJ', 'KWIATKOWSKI')
+# name('Maciej', 'KWIAtkoWski')
 
 b = 'Maciej'
 name(b, b) # funkcję można wywołać podstawiając za wartość argumentu zmienną
