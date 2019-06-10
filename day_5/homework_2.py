@@ -17,6 +17,8 @@ test_parameters = [
 ]
 
 
+
+
 # Utrudnienie 1: Wykorzystaj funkcję calc w kodzie pracy domowej z zajęć 3.
 # Utrudnienie 2: Wymuś aby program działał w sposób ciągły - po obliczeniu jednego
 # działania pozowlił na wykonanie kolejnego.
